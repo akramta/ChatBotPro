@@ -48,12 +48,3 @@ async def ask(question: str = Form(...)):
 
     # نعيد الرد كامل، وسيتولى JS عمل streaming حرف حرف
     return JSONResponse({"answer": resp.text})
-
-
-echo "# ChatBotPro" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/akramta/ChatBotPro.git
-git push -u origin main
